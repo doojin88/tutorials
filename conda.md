@@ -1,6 +1,6 @@
 
 
-# Anaconda 와 Python 사용법
+# Anaconda 사용법
 
 
 
