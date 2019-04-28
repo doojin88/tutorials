@@ -90,7 +90,7 @@
     $ pip install ipykernel
     ```
 
-- jupyter kernel `py36ß` 추가  : 
+- jupyter kernel `py36` 추가  : 
 
   - ```bash
     $ jupyter kernelspec list
