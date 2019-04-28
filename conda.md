@@ -1,6 +1,6 @@
 
 
-# Anaconda 사용법
+# Anaconda 와 Python 사용법
 
 
 
@@ -30,9 +30,8 @@
 
 
 
-
-
-
+- 링크 : https://www.anaconda.com/distribution/
+  - ![image](anaconda1.png)
 
 
 
@@ -44,9 +43,9 @@
   - conda update anaconda3
 - env  생성
   - conda env list
-  - conda create —name py37 python=3.7
-  - conda activate py37
-    - source activate py37
+  - conda create —name py36 python=3.6
+  - conda activate py36
+    - source activate py36
   - conda deactivate
 - env package 설치
   - pip —version
@@ -67,34 +66,44 @@
 
 
 
-####  1) jupyter notebook 설치
+####  1) jupyter notebook 설치 및 실행
+
+- Command
+
+  - ```bash
+    $ conda activate py36
+    $ pip install jupyter
+    $ pip install ipython
+    $ jupyter notebook
+    ```
 
 
 
+#### 2) jupyter notebook kernel 관리
 
+- 준비
 
-#### 2) jupyter notebook kernel 추가
+  - ```bash
+    $ conda activate py36
+    $ pip install -U pip
+    $ pip install jupyter
+    $ pip install ipykernel
+    ```
 
-- conda activate py37
+- jupyter kernel `py36ß` 추가  : 
 
-  - conda install pip
-  - pip install -U pip
+  - ```bash
+    $ jupyter kernelspec list
+    $ python -m ipykernel install --user --name py36 --display-name "Python (py37)"
+    ```
 
-- pip install ipykernel
+- jupyter kernel 삭제
 
-- jupyter kernel `py37` 추가  : 
-
-- ```
-  python -m ipykernel install --user --name py37 --display-name "Python (py37)"
-  ```
-
-- 
-
-#### 3) jupyter notebook kernel 삭제
-
-- kernelspec
-
-- 
+  - ```bash
+  $ jupyter kernelspec
+    $ jupyter kernelspec list
+    $ jupyter kernelspec uninstall <NAME>
+    ```
 
 
 
