@@ -1,2 +1,2 @@
 # study
-my description about various info.
+my description about various study info.
