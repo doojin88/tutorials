@@ -15,4 +15,4 @@ Study 참여 :
 
 
 Frontend Study : 
-- Build Amazon 2.0 with JavaScript + Tailwind CSS (& Firebase)(https://www.youtube.com/watch?v=9rW_-Zu9cXI)
+- [Build Amazon 2.0 with JavaScript + Tailwind CSS (& Firebase)](https://www.youtube.com/watch?v=9rW_-Zu9cXI)
