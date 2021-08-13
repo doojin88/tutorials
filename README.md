@@ -12,3 +12,7 @@ Study 참여 :
     - [Docker 소개 및 체험](https://github.com/doojin88/docker/blob/master/docs/docker.md)
   - [javascript refactoring](https://github.com/KisukPark/js-refactoring-2019)
     - [3.Decomposing the statement function](https://github.com/KisukPark/js-refactoring-2019/blob/master/HandsOnLab/3-Decomposing/readme.md)
+
+
+Frontend Study : 
+- Build Amazon 2.0 with JavaScript + Tailwind CSS (& Firebase)(https://www.youtube.com/watch?v=9rW_-Zu9cXI)
